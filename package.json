@@ -1,0 +1,9 @@
+{
+  "name": "relift-html-try",
+  "version": "1.0.0",
+  "description": "Sample reLift-HTML repo",
+  "main": "index.js",
+  "repository": "git@github.com:newbornfrontender/relift-html-try.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}
