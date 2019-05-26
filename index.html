@@ -16,15 +16,23 @@
   </head>
 
   <body>
-    <!-- Counter sample -->
-    <!-- <my-counter start="50"></my-counter> -->
+    <fieldset>
+      <legend>Counter sample</legend>
 
-    <!-- If Else sample -->
-    <div id="if-else">
-      Hello I'm inline and counting: {this.count}
+      <my-counter start="50"></my-counter>
+    </fieldset>
 
-      <span r-if="this.count % 2 === 0">This Even</span>
-      <span r-else>This Odd</span>
-    </div>
+    <br />
+
+    <fieldset>
+      <legend>If Else sample</legend>
+
+      <div id="if-else">
+        Hello I'm inline and counting: {this.count}
+
+        <span r-if="this.count % 2 === 0">This Even</span>
+        <span r-else>This Odd</span>
+      </div>
+    </fieldset>
   </body>
 </html>
