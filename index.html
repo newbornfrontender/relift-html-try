@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>reLift-HTML</title>
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <script type="module">
+      import './index.js';
+    </script>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Counter sample</legend>
+
+      <my-counter start="50"></my-counter>
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+      <legend>If Else sample</legend>
+
+      <div id="if-else">
+        Hello I'm inline and counting: {this.count}
+
+        <span r-if="this.count % 2 === 0">This Even</span>
+        <span r-else>This Odd</span>
+      </div>
+    </fieldset>
+  </body>
+</html>

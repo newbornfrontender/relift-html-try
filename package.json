@@ -1,0 +1,21 @@
+{
+  "name": "relift-html-try",
+  "version": "1.0.0",
+  "description": "Sample reLift-HTML repo",
+  "main": "index.js",
+  "repository": "git@github.com:newbornfrontender/relift-html-try.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write **/*.{html,css,js,json,yml,md}",
+    "serve": "serve"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "8.2.0",
+    "commitlint": "8.2.0",
+    "husky": "3.0.4",
+    "lint-staged": "8.1.7",
+    "prettier": "1.18.2",
+    "serve": "11.1.0"
+  }
+}
